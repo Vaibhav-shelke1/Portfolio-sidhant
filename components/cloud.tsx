@@ -5,7 +5,8 @@ import IconCloud from "@/components/magicui/icon-cloud"
 import { Button } from "@/components/ui/button"
 import { Sparkles } from "lucide-react"
 
-const categories = {
+// Ensure categories is correctly defined
+const categories: Record<string, string[]> = {
   "Programming Languages": [
     "python",
     "sql",
@@ -73,8 +74,8 @@ const categories = {
 }
 
 export function IconCloudDemo() {
-  const [selectedCategory, setSelectedCategory] = useState("All")
-  const [slugs, setSlugs] = useState([])
+  const [selectedCategory, setSelectedCategory] = useState<string>("All")
+  const [slugs, setSlugs] = useState<string[]>([])
 
   useEffect(() => {
     if (selectedCategory === "All") {
