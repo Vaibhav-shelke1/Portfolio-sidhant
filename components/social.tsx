@@ -68,22 +68,22 @@ const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/notcodesid",
+        url: "https://github.com/sidmanale643",
         icon: Icons.github,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/sidharthh-pandro",
+        url: "https://www.linkedin.com/in/sidhantmanale/",
         icon: Icons.linkedin,
       },
       X: {
         name: "X",
-        url: "https://x.com/notcodesid",
+        url: "https://x.com/sidmanale643",
         icon: Icons.x,
       },
       email: {
         name: "Send Email",
-        url: "mailto:notcodesid@gmail.com",
+        url: "sidmanale643@gmail.com",
         icon: Icons.email,
       },
     },
